@@ -1,0 +1,72 @@
+[
+    {
+        "amount": 583653.0,
+        "from": "UAH",
+        "to": "USD",
+        "result": 13204.58,
+        "time": "Fri Mar 27 19:19:44 2026"
+    },
+    {
+        "amount": 100.0,
+        "from": "USD",
+        "to": "UAH",
+        "result": 4420.08,
+        "time": "Fri Mar 27 19:09:10 2026"
+    },
+    {
+        "amount": 12.0,
+        "from": "EUR",
+        "to": "USD",
+        "result": 13.85,
+        "time": "Fri Mar 27 18:51:55 2026"
+    },
+    {
+        "amount": 100.0,
+        "from": "USD",
+        "to": "UAH",
+        "result": 4420.08,
+        "time": "Fri Mar 27 18:49:00 2026"
+    },
+    {
+        "amount": 100.0,
+        "from": "USD",
+        "to": "UAH",
+        "result": 4421.06,
+        "time": "Wed Mar 25 19:41:44 2026"
+    },
+    {
+        "amount": 100.0,
+        "from": "UAH",
+        "to": "UAH",
+        "result": 100.0,
+        "time": "Wed Mar 25 19:38:47 2026"
+    },
+    {
+        "amount": 100.0,
+        "from": "UAH",
+        "to": "USD",
+        "result": 2.26,
+        "time": "Wed Mar 25 19:38:27 2026"
+    },
+    {
+        "amount": 100.0,
+        "from": "USD",
+        "to": "UAH",
+        "result": 4421.06,
+        "time": "Wed Mar 25 19:27:16 2026"
+    },
+    {
+        "amount": 100.0,
+        "from": "USD",
+        "to": "EUR",
+        "result": 86.23,
+        "time": "Wed Mar 25 19:27:03 2026"
+    },
+    {
+        "amount": 100.0,
+        "from": "UAH",
+        "to": "USD",
+        "result": 2.26,
+        "time": "Wed Mar 25 19:13:54 2026"
+    }
+]
