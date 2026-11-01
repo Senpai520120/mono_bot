@@ -1,23 +1,15 @@
 from services.api import get_exchange_rate
 
+
 def convert_currency(amount, from_currency, to_currency):
+    """Convert amount via UAH. Returns the rounded result, or None if rates are unavailable."""
     if from_currency == to_currency:
-        return amount
+        return round(amount, 2)
 
-    rates = {
-        "USD": get_exchange_rate("USD"),
-        "EUR": get_exchange_rate("EUR"),
-        "UAH": 1
-    }
-
-    if None in rates.values():
+    rate_from = get_exchange_rate(from_currency)
+    rate_to = get_exchange_rate(to_currency)
+    if rate_from is None or rate_to is None:
         return None
 
-    amount_in_uah = amount * rates[from_currency]
-    result = amount_in_uah / rates[to_currency]
-
-    return round(result, 2)
-
-
-
-
+    amount_in_uah = amount * rate_from
+    return round(amount_in_uah / rate_to, 2)
