@@ -1,5 +1,13 @@
 .venv/
+venv/
 .idea/
+.vscode/
 __pycache__/
 *.pyc
+.pytest_cache/
+.ruff_cache/
 .env
+
+# Runtime data written by the bot
+history.json
+*.tmp
